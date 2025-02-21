@@ -1,0 +1,62 @@
+body{
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.title-box{
+    height: 1rem;
+    padding: 0.1rem;
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main-box{
+    /* height: 40vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 15vmin;
+    width: 15vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #ffffc7;
+}
+.game-box{
+    height: 50vmin;
+    width: 50vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1vmin;
+}
+
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+
+#newgame-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+#msg{
+    padding: 1rem;
+    font-size: 2rem;
+    font-family: cursive;
+    font-weight: bold;
+
+}
