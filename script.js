@@ -88,3 +88,10 @@ const winPatterns = [
     msg.innerText="";
     count=0
   });
+
+  newgame_btn.addEventListener("click",()=>{
+    enableBoxes();
+    msg.innerText="";
+    count=0
+  });
+  
